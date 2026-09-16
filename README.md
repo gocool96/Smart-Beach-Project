@@ -4,10 +4,20 @@ Applied machine learning work on a Municipal Innovation Council (MIC) pilot in
 Bruce County, Ontario. Phase 6, Winter 2025, as part of a student team at
 Georgian College.
 
-**Why there is no code in this repository:** the work was done under a municipal
-council pilot using project data that is not mine to publish. This README
-describes the approach and findings; the full write-up is in
-`Smart Beach Final Report.pdf` in this repository.
+**About the code here.** The two Phase 6 notebooks are in `notebooks/`:
+
+- `Smart_Beach-Phase_6.ipynb` -- the team's shared Colab notebook, covering the
+  data preparation and the multivariate LSTM.
+- `Snowfall_XGBoost_Model.ipynb` -- my gradient-boosting baseline and its
+  hyperparameter tuning.
+
+They are published as they stood at the end of the phase, not cleaned up
+afterwards, so the limitations described further down are visible in them --
+including the scaling issue and the cells that were run out of order. The
+underlying dataset is not included, and the wider programme's confidential
+material is not part of this work.
+
+Full write-up: `Smart Beach Final Report.pdf` in this repository.
 
 ---
 
